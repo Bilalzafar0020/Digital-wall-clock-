@@ -21,40 +21,17 @@ font-family: monospace;
 
 
 .MainTime{
-    border: solid blue 03px;
+    border: solid rgb(4, 4, 235) 4px;
      width: 18rem; 
     height: 8rem;
     background-color: #192329;
     border-radius: 10px;
-    box-shadow: 0 0 20px #1f2122;
+    box-shadow: 0 0 20px #1e48bd;
 display: flex;
 flex-direction: column;
 color: white;
 }
 
-/*.MainTime::after{
-    content: "";
-    position: relative;
-    bottom: -17px;
-    left: 50%;
-    width: 70%;
-    height: 15px;
-    background-color: #0277bc;
-    transform: translate(-50%,0);
-    border-radius: 3px 3px 8px 8px ;
-    }
-    
-    .MainTime::before{
-        content: "";
-        position: relative;
-        width: 110%;
-        height: 15px;
-        background-color: #00000077;
-        bottom: -135px;
-        left: -6px;
-        border-radius: 80%;
-        filter: blur(5px);
-    } */ 
 
 .MainTime::after{
 content: "";
@@ -74,44 +51,13 @@ transform: translate(-50%,4%);
     content: "";
     position: relative;
     width: 8%;
-    bottom: -125px;
+    bottom: -123px;
     left: 260px;
     height: 8px;
     background-color: #0277bc;
     transform: translate(-50%,10%);
     border-radius: 3px 3px 3px 3px ;
 }
-
-.forafter::after{
-    content: "";
-    position: absolute;
-    width: 3%;
-    height: 10px;
-    background-color: #00000077;
-    bottom: 228px;
-    left: 548px;
-    border-radius: 40%;
-    filter: blur(4px);   
-
-}
-
-
-.forafter::before{
-    content: "";
-    position: absolute;
-    width: 3%;
-    height: 10px;
-    background-color: #00000077;
-    bottom: 228px;
-    left: 783px;
-    border-radius: 40%;
-    filter: blur(4px);   
-
-}
-
-
-
-
 
 .inside1{
     display: flex;
@@ -120,7 +66,23 @@ transform: translate(-50%,4%);
     font-size: 1.6em;
 
 }
-
+h1.Hours{
+    color: red;
+}
+h1.minutes{
+    color: green;
+}
+h1.seconds{
+    color: yellow;
+}
+sub.ampm{
+    border: 1px solid blue;
+    background-color: blue;
+    letter-spacing: 2px;
+}
+h4.MonthsdaysDate{
+    color: rgb(226, 192, 129);
+}
 
 .inside2{
     display: flex;
@@ -128,7 +90,5 @@ justify-content: center;
 margin-top: auto; 
 letter-spacing: 2.4px;   
 }
-
-
 
 
